@@ -1,0 +1,106 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+.container {
+  background: lightgrey;
+/*    position: absolute;*/
+    width: 100%;
+    left: 0;
+    margin: 0px;
+}
+
+.col-sm-4{
+    max-width: 25%;
+    padding: 0px;
+}
+.site-title {
+  font-size: 2.5rem;
+  margin: .2rem 0;
+  padding-top: 10px;
+  padding: 0px;
+}
+
+
+.color2 {
+  padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.color3 {
+  background: #ffdbe5;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+.color4,
+
+body {
+  background: white;
+  font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: darkgray;
+}
+
+
+.card-link:hover {
+  color: #808080;
+}
+.buttonstyle:hover {
+    background: aqua;
+}
+
+.btn-group .btn-secondary {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.navbar {
+  margin: 0 auto;
+  background: #f5e9dc;
+    padding: 0;
+}
+.example {
+    max-width: 250px;
+}
+
+form input {box-sizing:border-box}
+form > div {
+  position:relative;
+  margin-right:5px; /* same with `button width` + `button distance from search field` */
+}
+form input[type="text"] {
+  display:block;
+  width:100%;
+}form input[type="button"] {
+  display:block;
+  width:60px; /* this is the `button width` */
+  position:absolute;
+  top:0;
+  left:50%; /* push to the right! */
+  margin-left:10px; /* this is the `button distance from search field` */
+}
+.footer{
+    background-color: #f5e9dc;
+}
+.button {
+    background: red;
+    text-align: center;
+}
+   
+.action:hover {
+    background-color: aqua;
+}
+/*
+    @media screen and (max-width:800px) {
+        .col-sm-4 {
+        width: 100%;
+            padding: 0px;
+            background-color: aqua;
+        }
+        
+    }
+*/
+
